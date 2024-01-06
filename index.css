@@ -1,0 +1,103 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    background-image: url('image4.jpg');
+    background-size: cover;
+}
+
+header {
+    background-color: #2c3e50; 
+    color:#3498db ; 
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: black; /* Change the background color to black */
+    color: white; /* Change the text color to white */
+    text-align: left;
+    padding: 0.5em 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+a:hover {
+    background-color: rgba(17, 0, 255, 0.724);
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(0, 98, 254, 0.991); 
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+/* Add this rule to change the text color of links inside the nav element */
+nav a {
+    color:white;
+}
+
+section {
+    padding: 20px;
+}
+
+.circular-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+    object-fit: cover;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #f9f9f9; 
+    padding: 8px;
+    text-align: left;
+}
+
+.table1 {
+    color: #3498db;
+    text-align: center;
+    background-color: #2c3e50; 
+}
+h1 {
+    color:#0f78e1; 
+    text-align: left;
+}
+h2, h3{
+    color:#2c3e50; 
+    text-align: left;
+}
+
+hr {
+    border: 1px solid #bdc3c7; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color:black;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+footer {
+            clear: both;
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 0px;
+            bottom: 0;
+            width: 100%;
+        }
